@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Pick Up Line Generator</title>
+    <meta name="description" content="This page generates random pick up lines.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="pick-up-line-generator.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <h1>Pick Up Line Generator</h1>
+    <p>This is your sign to make a move to your crush!</p>
+    <div class="pick-up-line-center">
+
+        <p id="pick-up-line-text"></p>
+    </div>
+    <!--this button executes the `generatePickUpLine()` function. -->
+
+    <button id="generate-button" onclick="generatePickUpLine()">
+            Click Here
+           </button>
+    
+    <button onclick="suggestion.html"> Feedback</button>
+
+
+    <hr>
+    <h2>Used Pick Up Lines</h2>
+    <ul id="previous-pick-up-lines">
+        <!--previously generated pick up lines are listed here. -->
+    </ul>
+</body>
+
+</html>

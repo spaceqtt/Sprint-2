@@ -1,0 +1,74 @@
+/* Pick Up Lines Generator Styles */
+
+html {
+    text-align: center;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(255, 204, 203, 0.99);
+}
+
+/* Pick Up Lines*/
+
+.pick-up-line-center {
+    padding: 1em;
+    margin: 1em;
+    background-image: url('heart.png');
+    background-size: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*previous pick up lines */
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img {
+    size: 100px;
+}
+
+/*lines */
+
+p#pick-up-line-text {
+    margin-top: 140px;
+    margin-left: 400px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    word-wrap: break-word;
+    width: 400px;
+}
+
+/*Heading styling */
+
+h1,
+h2 {
+    font-family: 'Satisfy', cursive;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/*Button styling */
+
+button {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 20px 50px;
+    background-color: rgb(255, 204, 203, 0.99);
+    font-size: 15px;
+}
+
